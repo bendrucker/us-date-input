@@ -34,9 +34,9 @@
   ],
   "dependencies": {
     "base-input": "~1.2.0",
+    "is-date-like": "~1.0.0",
     "numeric-pattern": "~1.0.0",
     "observ-value": "~1.0.0",
-    "regex-iso-date": "~1.0.0",
     "separate": "~1.0.1",
     "us-date": "~1.1.0",
     "value-pipe": "~1.0.0"

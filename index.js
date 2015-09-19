@@ -5,7 +5,7 @@ var usDate = require('us-date')
 var pipe = require('value-pipe')
 var value = require('observ-value')
 var separate = require('separate')
-var isoDateRegex = require('regex-iso-date')
+var isDateLike = require('is-date-like')
 var numeric = require('numeric-pattern')
 
 var parse = pipe(clean, limit, slashes)
@@ -54,8 +54,4 @@ function toDate (state) {
 
 function date (string) {
   return new Date(string)
-}
-
-function isDateLike (value) {
-  return isoDateRegex().test(value) || value instanceof Date
 }
