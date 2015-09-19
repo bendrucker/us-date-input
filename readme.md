@@ -1,4 +1,4 @@
-# date-input [![Build Status](https://travis-ci.org/bendrucker/date-input.svg?branch=master)](https://travis-ci.org/bendrucker/date-input)
+# us-date-input [![Build Status](https://travis-ci.org/bendrucker/us-date-input.svg?branch=master)](https://travis-ci.org/bendrucker/us-date-input)
 
 > US date input component for virtual-dom
 
@@ -6,14 +6,14 @@
 ## Install
 
 ```
-$ npm install --save date-input
+$ npm install --save us-date-input
 ```
 
 
 ## Usage
 
 ```js
-var DateInput = require('date-input')
+var DateInput = require('us-date-input')
 var dateInput = DateInput()
 
 function render (state) {
