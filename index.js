@@ -7,6 +7,7 @@ var value = require('observ-value')
 var separate = require('separate')
 var isDateLike = require('is-date-like')
 var numeric = require('numeric-pattern')
+var extend = require('xtend')
 
 var parse = pipe(clean, limit, slashes)
 
@@ -35,9 +36,9 @@ function slashes (string) {
   return separate(string, '/', [2, 4])
 }
 
-function format (value) {
+function format (value, options) {
   if (isDateLike(value)) {
-    return usDate(date(value), {pad: true})
+    return usDate(date(value), extend({pad: true}, options))
   }
   return value
 }

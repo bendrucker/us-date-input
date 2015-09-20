@@ -39,6 +39,7 @@
     "observ-value": "~1.0.0",
     "separate": "~1.0.1",
     "us-date": "~1.1.0",
-    "value-pipe": "~1.0.0"
+    "value-pipe": "~1.0.0",
+    "xtend": "~4.0.0"
   }
 }
