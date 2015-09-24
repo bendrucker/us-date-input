@@ -45,8 +45,8 @@ function format (value, options) {
 
 // MM/DD/YYYY
 var regex = /\d{2}\/\d{2}\/\d{4}/
-function validate (string) {
-  return regex.test(string) || isDateLike(value)
+function validate (value) {
+  return regex.test(value) || isDateLike(value)
 }
 
 function toDate (state) {

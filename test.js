@@ -50,3 +50,10 @@ test('dom to state', function (t) {
     })
   })
 })
+
+test('validation', function (t) {
+  var state = DateInput()
+  state.value.set(new Date())
+  t.ok(DateInput.validate(state))
+  t.end()
+})
