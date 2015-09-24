@@ -8,6 +8,7 @@ var separate = require('separate')
 var isDateLike = require('is-date-like')
 var numeric = require('numeric-pattern')
 var extend = require('xtend')
+var date = require('create-date')
 
 var parse = pipe(clean, limit, slashes)
 
@@ -51,8 +52,4 @@ function validate (value) {
 
 function toDate (state) {
   return DateInput.validate(state) ? pipe(value, date)(state.value) : null
-}
-
-function date (string) {
-  return new Date(string)
 }
