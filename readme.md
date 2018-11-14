@@ -1,4 +1,4 @@
-# us-date-input [![Build Status](https://travis-ci.org/bendrucker/us-date-input.svg?branch=master)](https://travis-ci.org/bendrucker/us-date-input)
+# us-date-input [![Build Status](https://travis-ci.org/bendrucker/us-date-input.svg?branch=master)](https://travis-ci.org/bendrucker/us-date-input) [![Greenkeeper badge](https://badges.greenkeeper.io/bendrucker/us-date-input.svg)](https://greenkeeper.io/)
 
 > US date input component for virtual-dom
 
